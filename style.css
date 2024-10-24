@@ -475,11 +475,7 @@ h1 {
 }
 
 #logs {
-    background-color: white;
-    color: black;
-    padding: 10px;
-    border: 1px solid #ccc;
-    max-height: 200px; 
-    overflow-y: scroll; 
-    overflow-x: hidden; 
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 200px;
 }
